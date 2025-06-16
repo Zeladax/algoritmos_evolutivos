@@ -1,0 +1,29 @@
+¿Cuál representación logra mejor equilibrio entre los grupos?
+    La desviación estándar entre promedios de los grupos es la métrica clave para medir el equilibrio.
+    A menor desviación, mayor equilibrio en las asignaciones.
+
+    En ese aspecto, las desviaciones con respecto a cada representación es la siguiente:
+        Binaria -> 0.4093
+        Permutacional -> 0.0363
+        Real -> 0.0363
+
+    En conclusión, la representación Permutacional y Real logran el mejor equlibrio entre los grupoos, ambas con una desviación estándar de 0.0363.
+    La representación Binaria es significativamente peor en este aspecto.
+
+
+¿Cuál representación converge más rápido?
+    La convergencia se puede evaluar observando en qué generación deja mejorar el fitness.
+    Ya que en algoritmos genéticos, convergencia se refiere a cuán rápido la población del algoritmo deja de mejorar significativamente su solución. 
+    Esto se observa en cómo evoluciona el fitness, que mide qué tan buena es una solución.
+
+    De esta manera, tendríamos:
+        Binaria, el fitness no mejora desde la generación 0, por lo que no tiene mejora significativa
+        Permutacional, el fitness deja de mejorar a partir de la generación 10, obteniendo una mejora del 29.2%
+        Real, el fitness deja de mejorar en la generación 30, con una mejora menor
+
+
+En conclusión:
+- La representación que mejor converge es la permutacional, alcanzando su mejor fitness ya en la generación 10, además con una mejora notable del 29.2%
+- La representación real es la que converge más lento y mejora poco
+- La representación binaria no mejora nada a lo largo de las generaciones
+
