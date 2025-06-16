@@ -3,9 +3,9 @@
     A menor desviación, mayor equilibrio en las asignaciones.
 
     En ese aspecto, las desviaciones con respecto a cada representación es la siguiente:
-        Binaria -> 0.4093
-        Permutacional -> 0.0363
-        Real -> 0.0363
+        Binaria --> 0.4093
+        Permutacional --> 0.0363
+        Real --> 0.0363
 
     En conclusión, la representación Permutacional y Real logran el mejor equlibrio entre los grupoos, ambas con una desviación estándar de 0.0363.
     La representación Binaria es significativamente peor en este aspecto.
